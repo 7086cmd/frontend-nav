@@ -2,7 +2,13 @@
   <div class="page-container">
     <div class="container">
       <h1>Frontend Technologies</h1>
-      <p class="subtitle">Explore the modern frontend development ecosystem</p>
+      <p class="subtitle">
+        Explore the modern frontend development ecosystem
+      </p>
+
+      <p class="desc">
+        Compared with the authorized collection, I would suggest this page to be my personal collection of used JavaScript libraries and frameworks. If you made something distinguishable, you can fill a PR in [7086cmd/frontend-nav].
+      </p>
       
       <div v-for="category in categories" :key="category.name" class="category-section">
         <h2>{{ category.name }}</h2>
@@ -67,8 +73,20 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 1.1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0.4rem;
   animation: fadeIn 0.8s ease-out 0.2s backwards;
+}
+
+.desc {
+  text-align: left;
+  color: #97a8c1;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  animation: fadeIn 0.8s ease-out 0.3s backwards;
 }
 
 .category-section {

@@ -12,7 +12,7 @@
       <a :href="tech.repo" target="_blank" rel="noopener" class="link-button">
         <span>Repository</span>
       </a>
-      <a :href="tech.repl" target="_blank" rel="noopener" class="link-button">
+      <a v-if="tech.repl" :href="tech.repl" target="_blank" rel="noopener" class="link-button">
         <span>Try Online</span>
       </a>
     </div>

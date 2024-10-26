@@ -32,7 +32,7 @@
           "icon": "https://parceljs.org/favicon.fe6f9d11.ico",
           "docs": "https://parceljs.org",
           "repo": "https://github.com/parcel-bundler/parcel",
-          "repl": "https://codesandbox.io",
+          "repl": "https://repl.parceljs.org/",
           "description": "Zero configuration build tool"
         },
         {
@@ -42,6 +42,51 @@
           "repo": "https://github.com/evanw/esbuild",
           "repl": "https://esbuild.github.io/try",
           "description": "Extremely fast JavaScript bundler"
+        },
+        {
+          "name": "Rspack",
+          "icon": "https://assets.rspack.dev/rspack/rspack-logo.svg",
+          "docs": "https://rspack.dev",
+          "repo": "https://github.com/web-infra-dev/rspack",
+          "repl": "https://rspack.dev/playground",
+          "description": "The fast Rust-based web bundler"
+        }
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "technologies": [
+        {
+          "name": "Vite",
+          "icon": "https://vite.dev/logo.svg",
+          "docs": "https://vite.dev/",
+          "repo": "https://github.com/vitejs/vite",
+          "repl": "",
+          "description": "A blazing fast frontend build tool powering the next generation of web applications."
+        },
+        {
+          "name": "farm",
+          "icon": "https://www.farmfe.org/img/logo.png",
+          "docs": "https://www.farmfe.org",
+          "repo": "https://github.com/farm-fe/farm",
+          "repl": "",
+          "description": "Extremely Fast Web Build Tool Written in Rust"
+        },
+        {
+          "name": "Rsbuild",
+          "icon": "https://assets.rspack.dev/rsbuild/rsbuild-logo.svg",
+          "docs": "https://rsbuild.dev/",
+          "repo": "https://github.com/web-infra-dev/rsbuild",
+          "repl": "",
+          "description": "The Rspack Powered Build Tool"
+        },
+        {
+          "name": "Parcel",
+          "icon": "https://parceljs.org/favicon.fe6f9d11.ico",
+          "docs": "https://parceljs.org",
+          "repo": "https://github.com/parcel-bundler/parcel",
+          "repl": "https://repl.parceljs.org/",
+          "description": "Zero configuration build tool"
         }
       ]
     },
@@ -73,12 +118,20 @@
           "description": "Rust-based JavaScript/TypeScript minifier"
         },
         {
-          "name": "oxc Minifier",
+          "name": "oxc-minifier",
           "icon": "https://cdn.jsdelivr.net/gh/oxc-project/oxc-assets/round-bubbles.png",
           "docs": "https://oxc.rs",
           "repo": "https://github.com/oxc-project/oxc",
           "repl": "https://oxc.rs/playground",
           "description": "JavaScript optimizer written in Rust"
+        },
+        {
+          "name": "uglify-js",
+          "icon": "",
+          "docs": "https://github.com/mishoo/UglifyJS",
+          "repo": "https://github.com/mishoo/UglifyJS",
+          "repl": "",
+          "description": "JavaScript minifier"
         }
       ]
     },
@@ -110,12 +163,78 @@
           "description": "Super-fast TypeScript/JavaScript compiler"
         },
         {
-          "name": "oxc",
+          "name": "oxc-transformer",
           "icon": "https://cdn.jsdelivr.net/gh/oxc-project/oxc-assets/round-bubbles.png",
           "docs": "https://oxc.rs",
           "repo": "https://github.com/oxc-project/oxc",
           "repl": "https://oxc.rs/playground",
           "description": "JavaScript transpiler written in Rust"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "technologies": [
+        {
+          "name": "Vitest",
+          "icon": "https://vitest.dev/logo-shadow.svg",
+          "docs": "https://vitest.dev/",
+          "repo": "https://github.com/vitest-dev/vitest",
+          "repl": "",
+          "description": "Next Generation Testing Framework"
+        },
+        {
+          "name": "Jest",
+          "icon": "https://jestjs.io/img/favicon/favicon.ico",
+          "docs": "https://jestjs.io",
+          "repo": "https://github.com/facebook/jest",
+          "repl": "",
+          "description": "Delightful JavaScript testing framework with a focus on simplicity."
+        },
+        {
+          "name": "Mocha",
+          "icon": "https://mochajs.org/favicon.ico",
+          "docs": "https://mochajs.org",
+          "repo": "https://github.com/mochajs/mocha",
+          "repl": "",
+          "description": "Simple, flexible JavaScript test framework for Node.js"
+        },
+        {
+          "name": "Cypress",
+          "icon": "https://www.cypress.io/favicon.svg",
+          "docs": "https://www.cypress.io",
+          "repo": "https://github.com/cypress-io/cypress",
+          "repl": "",
+          "description": "Fast, easy, and reliable testing for anything that runs in a browser."
+        }
+      ]
+    },
+    {
+      "name": "CSS Handling",
+      "technologies": [
+        {
+          "name": "UnoCSS",
+          "icon": "https://unocss.dev/logo.svg",
+          "docs": "https://unocss.dev/",
+          "repo": "https://github.com/unocss/unocss/",
+          "repl": "https://unocss.dev/play/",
+          "description": "Instant On-demand Atomic CSS Engine"
+        },
+        {
+          "name": "PostCSS",
+          "icon": "https://postcss.org/assets/postcss-CsElRNOW.svg",
+          "docs": "https://postcss.org",
+          "repo": "https://github.com/postcss/postcss",
+          "repl": "",
+          "description": "A tool for transforming CSS with JavaScript plugins"
+        },
+        {
+          "name": "Lightning CSS",
+          "icon": "https://lightningcss.dev/favicon.3aabf677.svg",
+          "docs": "https://lightningcss.dev",
+          "repo": "https://github.com/parcel-bundler/lightningcss",
+          "repl": "https://lightningcss.dev/playground/index.html",
+          "description": "An extremely fast CSS parser, transformer, bundler, and minifier"
         }
       ]
     }
