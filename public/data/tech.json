@@ -1,0 +1,123 @@
+{
+  "categories": [
+    {
+      "name": "Bundlers",
+      "technologies": [
+        {
+          "name": "Webpack",
+          "icon": "https://webpack.js.org/favicon.a3dd58d3142f7566.ico",
+          "docs": "https://webpack.js.org",
+          "repo": "https://github.com/webpack/webpack",
+          "repl": "https://stackblitz.com/fork/webpack",
+          "description": "Static module bundler for modern JavaScript applications"
+        },
+        {
+          "name": "Rollup",
+          "icon": "https://rollupjs.org/favicon.png",
+          "docs": "https://rollupjs.org",
+          "repo": "https://github.com/rollup/rollup",
+          "repl": "https://rollupjs.org/repl",
+          "description": "Module bundler for JavaScript"
+        },
+        {
+          "name": "Rolldown",
+          "icon": "https://rolldown.rs/rolldown-round.svg",
+          "docs": "https://rolldown.rs",
+          "repo": "https://github.com/rolldown/rolldown",
+          "repl": "https://stackblitz.com/github/rolldown/rolldown-starter-stackblitz",
+          "description": "Fast Rust-based bundler for JavaScript with Rollup-compatible API"
+        },
+        {
+          "name": "Parcel",
+          "icon": "https://parceljs.org/favicon.fe6f9d11.ico",
+          "docs": "https://parceljs.org",
+          "repo": "https://github.com/parcel-bundler/parcel",
+          "repl": "https://codesandbox.io",
+          "description": "Zero configuration build tool"
+        },
+        {
+          "name": "esbuild",
+          "icon": "https://esbuild.github.io/favicon.svg",
+          "docs": "https://esbuild.github.io",
+          "repo": "https://github.com/evanw/esbuild",
+          "repl": "https://esbuild.github.io/try",
+          "description": "Extremely fast JavaScript bundler"
+        }
+      ]
+    },
+    {
+      "name": "Minifiers",
+      "technologies": [
+        {
+          "name": "Terser",
+          "icon": "https://terser.org/img/terser-square-logo.svg",
+          "docs": "https://terser.org",
+          "repo": "https://github.com/terser/terser",
+          "repl": "https://try.terser.org",
+          "description": "JavaScript parser and mangler/compressor"
+        },
+        {
+          "name": "Closure Compiler",
+          "icon": "https://closure-compiler.appspot.com/images/header.png",
+          "docs": "https://developers.google.com/closure/compiler",
+          "repo": "https://github.com/google/closure-compiler",
+          "repl": "https://closure-compiler.appspot.com",
+          "description": "Google's tool for minifying JavaScript"
+        },
+        {
+          "name": "SWC Minifier",
+          "icon": "https://swc.rs/logo.png",
+          "docs": "https://swc.rs/docs/configuration/minification",
+          "repo": "https://github.com/swc-project/swc",
+          "repl": "https://play.swc.rs",
+          "description": "Rust-based JavaScript/TypeScript minifier"
+        },
+        {
+          "name": "oxc Minifier",
+          "icon": "https://cdn.jsdelivr.net/gh/oxc-project/oxc-assets/round-bubbles.png",
+          "docs": "https://oxc.rs",
+          "repo": "https://github.com/oxc-project/oxc",
+          "repl": "https://oxc.rs/playground",
+          "description": "JavaScript optimizer written in Rust"
+        }
+      ]
+    },
+    {
+      "name": "Transpilers",
+      "technologies": [
+        {
+          "name": "Babel",
+          "icon": "https://babel.dev/img/favicon.png",
+          "docs": "https://babel.dev",
+          "repo": "https://github.com/babel/babel",
+          "repl": "https://babel.dev/repl",
+          "description": "JavaScript compiler for next-gen JavaScript"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "https://www.typescriptlang.org/favicon-32x32.png",
+          "docs": "https://www.typescriptlang.org",
+          "repo": "https://github.com/microsoft/TypeScript",
+          "repl": "https://www.typescriptlang.org/play",
+          "description": "Typed superset of JavaScript"
+        },
+        {
+          "name": "SWC",
+          "icon": "https://swc.rs/logo.png",
+          "docs": "https://swc.rs",
+          "repo": "https://github.com/swc-project/swc",
+          "repl": "https://play.swc.rs",
+          "description": "Super-fast TypeScript/JavaScript compiler"
+        },
+        {
+          "name": "oxc",
+          "icon": "https://cdn.jsdelivr.net/gh/oxc-project/oxc-assets/round-bubbles.png",
+          "docs": "https://oxc.rs",
+          "repo": "https://github.com/oxc-project/oxc",
+          "repl": "https://oxc.rs/playground",
+          "description": "JavaScript transpiler written in Rust"
+        }
+      ]
+    }
+  ]
+}
