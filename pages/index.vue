@@ -83,9 +83,10 @@ h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
+  margin: 0 auto;
+  margin-top: 1em;
   margin-bottom: 3rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  max-width: 31.25rem;
   animation: fadeIn 0.8s ease-out 0.3s backwards;
 }
 
